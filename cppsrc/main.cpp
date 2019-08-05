@@ -9,10 +9,6 @@
 
 using namespace Napi;
 
-String Hello(const CallbackInfo& info) {
-  return String::New(info.Env(), "world");
-}
-
 Boolean checkCapsLock(const CallbackInfo& info)
 {
   // platform dependent method of determining if CAPS LOCK is on
