@@ -1,11 +1,11 @@
 /* cppsrc/main.cpp */
 #include <napi.h>
 
-#ifdef Q_OS_WIN32
+// #ifdef Q_OS_WIN32
 # include <windows.h>
-#else
-# include <X11/XKBlib.h>
-#endif
+// #else
+// # include <X11/XKBlib.h>
+// #endif
 
 using namespace Napi;
 
