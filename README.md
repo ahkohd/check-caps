@@ -1,17 +1,24 @@
-### check-caps
+# check-caps
+Native node module to check if caps lock is on/off (Windows, Mac OS, Linux)
 
 ```js
 const checkcaps = require('check-caps');
-// get the status of caps lock..
+// get the status of caps lock (boolean)..
 checkcaps.status();
 ```
 
-### Note:
-(-) Windows
-(x) Mac Os
-(x) Linux
+# Support
+- (✔) Windows
+- (✔) Mac OS 
+- (✔) Linux
 
-## Build
+*Note* Both Mac OS and Linux support is based on ``X11/XKBlib.h``
+
+# Build
+To build locally on your machine
 ```bash
-npm run build-addon
+$ npm run build-addon
 ```
+
+# License
+## MIT
