@@ -1,7 +1,7 @@
 {
   "name": "check-caps",
   "version": "1.0.0",
-  "description": "",
+  "description": "Native node module to check if caps lock is on/off (windows, mac os, linux)",
   "main": "index.js",
   "gypfile": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "clean": "node-gyp clean",
     "build-addon": "node-gyp rebuild && npm rebuild"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Victor Aremu",
+  "license": "MIT",
   "devDependencies": {
     "node-gyp": "^5.0.3"
   },
