@@ -1,6 +1,6 @@
 {
   "name": "check-caps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Native node module to check if caps lock is on/off (windows, mac os, linux)",
   "main": "index.js",
   "gypfile": true,
