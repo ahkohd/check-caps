@@ -21,4 +21,4 @@ $ npm run build-addon
 ```
 
 # License
-## MIT
+### MIT
