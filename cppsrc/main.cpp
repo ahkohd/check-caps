@@ -2,9 +2,9 @@
 #include <napi.h>
 
 #ifdef _WIN32
-# include <windows.h>
+  #include <windows.h>
 #else
-include <X11/XKBlib.h>
+  #include <X11/XKBlib.h>
 #endif
 
 using namespace Napi;
