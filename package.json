@@ -18,7 +18,7 @@
   "keywords": ["node", "caplocks", "native", "windows", "macos", "linux", "status", "cap"],
   "license": "MIT",
   "devDependencies": {
-    "node-gyp": "^5.0.3"
+    "node-gyp": "^11.0.0"
   },
   "dependencies": {
     "node-addon-api": "^1.7.1"
